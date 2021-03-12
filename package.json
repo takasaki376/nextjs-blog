@@ -7,9 +7,6 @@
     "build": "next build",
     "start": "next start  -p %npm_package_config_PORT%"
   },
-  "config": {
-    "PORT": 8008
-  },
   "dependencies": {
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
