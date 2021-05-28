@@ -10,6 +10,6 @@ yarn add axios
 
 # 登録・更新・削除処理　 V2 までの対応概要
 
-## SWR、classcat のインストール
+## SWR のインストール
 
 yarn add swr
