@@ -1,0 +1,11 @@
+.root {
+  margin: 8px auto;
+  text-align: start;
+}
+.title {
+  margin: 4px 0px 0px 0px;
+}
+.text {
+  width: 100%;
+  margin: 0px 0px 4px 0px;
+}

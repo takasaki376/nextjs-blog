@@ -13,3 +13,7 @@ yarn add axios
 ## SWR のインストール
 
 yarn add swr
+
+## classcat のインストール
+
+yarn add classcat

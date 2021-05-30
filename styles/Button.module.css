@@ -1,0 +1,43 @@
+.root {
+  margin: 4px 8px;
+}
+
+.button {
+  border-radius: 1.5rem;
+  border-width: 0px;
+  padding: 6px 12px;
+}
+.outline {
+  /* text-indigo-400 */
+  --tw-text-opacity: 1;
+  color: rgba(129, 140, 248, var(--tw-text-opacity));
+  /* border-indigo-400 */
+  --tw-border-opacity: 1;
+  border-color: rgba(129, 140, 248, var(--tw-border-opacity));
+  /* bg-gray-100 */
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+.outline:hover {
+  /* bg-gray-300 */
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+}
+.contained {
+  /* text-black */
+  /* --tw-text-opacity: 1;
+    color: rgba(0, 0, 0, var(--tw-text-opacity)); */
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  /* bg-gray-200 */
+  /* --tw-bg-opacity: 1;
+    background-color: rgba(229, 231, 235, var(--tw-bg-opacity)); */
+  /* bg-blue-200 */
+  --tw-bg-opacity: 1;
+  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+}
+.contained:hover {
+  /* bg-gray-400 */
+  --tw-bg-opacity: 1;
+  background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
+}
