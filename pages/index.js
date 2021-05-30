@@ -1,7 +1,14 @@
 import Head from "next/head";
 import Layout from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
-import { getSortedPostsData } from "../lib/blogApi";
+import {
+  apiUrl,
+  blogDelete,
+  blogGet,
+  blogPost,
+  blogPut,
+  getSortedPostsData,
+} from "../lib/blogApi";
 import Link from "next/link";
 import Date from "../components/date";
 import { TrashIcon } from "../components/TrashIcon";
