@@ -42,7 +42,7 @@ const Post = ({ postData }) => {
     return <div>Loading...</div>;
   }
   return (
-    <Layout>
+    <Layout name={blog.username}>
       <Head>
         <title>{blog.title}</title>
       </Head>
@@ -51,7 +51,7 @@ const Post = ({ postData }) => {
         <div className={utilStyles.lightText}>
           <Date dateString={blog.created_at} />
         </div>
-        <div> {blog.content}</div>
+        <div>{blog.content}</div>
       </article>
     </Layout>
   );

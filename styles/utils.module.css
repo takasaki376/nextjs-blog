@@ -75,3 +75,11 @@
   align-items: flex-start;
   margin: 0px;
 }
+
+.loginFrame {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  flex-direction: row;
+}
