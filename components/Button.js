@@ -12,7 +12,11 @@ export const Button = (props) => {
   ]);
   return (
     <div className={styles.root}>
-      <button className={classes} onClick={props.onClick}>
+      <button
+        className={classes}
+        onClick={props.onClick}
+        disabled={props.disabled}
+      >
         {props.children}
       </button>
     </div>
@@ -21,4 +25,5 @@ export const Button = (props) => {
 // Propsのデフォルト値
 Button.defaultProps = {
   variant: "contained",
+  disabled: false,
 };
